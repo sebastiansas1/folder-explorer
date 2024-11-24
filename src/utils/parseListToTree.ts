@@ -6,9 +6,9 @@ export const parseListToTree = (paths: string[]): TNode[] => {
   const root: TNode = {
     id: NODE_ID_PREFIX + 'root',
     parentId: null,
-    name: 'root',
+    name: '/',
     type: 'directory',
-    isExpanded: true,
+    isExpanded: false,
     children: [],
   }
 
